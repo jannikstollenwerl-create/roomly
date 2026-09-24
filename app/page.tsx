@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import WaitlistForm from "./components/WaitlistForm";
 
 const categories = [
@@ -30,6 +33,15 @@ const benefits = [
 ];
 
 export default function Home() {
+  const [count, setCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch("/api/waitlist-count")
+      .then((res) => res.json())
+      .then((data) => setCount(data.count))
+      .catch(() => setCount(null));
+  }, []);
+
   return (
     <main className="min-h-screen bg-white text-slate-950">
       {/* NAVIGATION */}
@@ -92,6 +104,25 @@ export default function Home() {
               <span>✓ Unverbindlich</span>
               <span>✓ Deutschlandweit</span>
             </div>
+
+            {/* WAITLIST COUNTER */}
+            {count !== null && (
+              <div className="mt-8 inline-flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-3 shadow-sm">
+                <div className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-950 text-sm text-white">
+                  ✓
+                </div>
+
+                <div>
+                  <div className="text-lg font-black">
+                    {count} {count === 1 ? "Person" : "Menschen"}
+                  </div>
+
+                  <div className="text-sm text-slate-500">
+                    bereits auf der ROOMLY-Warteliste
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* HERO VISUAL */}
@@ -144,7 +175,9 @@ export default function Home() {
               <div className="text-xs font-semibold uppercase tracking-widest text-slate-400">
                 ROOMLY
               </div>
-              <div className="mt-1 font-bold">Der Raum für deine Idee.</div>
+              <div className="mt-1 font-bold">
+                Der Raum für deine Idee.
+              </div>
             </div>
           </div>
         </div>
@@ -266,7 +299,10 @@ export default function Home() {
       </section>
 
       {/* PROVIDERS */}
-      <section id="raum-anbieten" className="mx-auto max-w-7xl px-6 py-24">
+      <section
+        id="raum-anbieten"
+        className="mx-auto max-w-7xl px-6 py-24"
+      >
         <div className="overflow-hidden rounded-[2rem] bg-slate-100">
           <div className="grid lg:grid-cols-2">
             <div className="p-8 sm:p-12 lg:p-16">
