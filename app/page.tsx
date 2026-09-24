@@ -78,11 +78,10 @@ export default function Home() {
             </h1>
 
             <p className="mt-7 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-              ROOMLY verbindet Menschen mit besonderen Räumen, die man
-              stundenweise nutzen kann – für Musik, Kreativität, Projekte,
-              Content und vieles mehr.
-            </p>
-
+  Entdecke besondere Räume in deiner Nähe und miete sie flexibel
+  stundenweise – vom Proberaum über das Fotostudio bis zur
+  Werkstatt. Oder biete deinen eigenen Raum auf ROOMLY an.
+</p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#warteliste"
@@ -359,10 +358,37 @@ export default function Home() {
             Sei von Anfang an dabei.
           </h2>
 
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-            ROOMLY entsteht gerade. Trag dich kostenlos ein und erfahre als
-            Erste:r, wenn die Plattform startet.
-          </p>
+        <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">
+  Trag dich kostenlos ein und erfahre als Erste:r, wenn ROOMLY startet.
+  Entdecke passende Räume, finde neue Möglichkeiten für dein Hobby und
+  hilf uns dabei, ROOMLY von Anfang an mitzugestalten.
+</p>
+
+<div className="mx-auto mt-8 grid max-w-2xl gap-3 text-left sm:grid-cols-3">
+  <div className="rounded-2xl bg-white p-4 shadow-sm">
+    <div className="text-xl">🔔</div>
+    <div className="mt-2 font-bold">Früh informiert</div>
+    <div className="mt-1 text-sm text-slate-500">
+      Erfahre zuerst, wann ROOMLY startet.
+    </div>
+  </div>
+
+  <div className="rounded-2xl bg-white p-4 shadow-sm">
+    <div className="text-xl">🏠</div>
+    <div className="mt-2 font-bold">Räume entdecken</div>
+    <div className="mt-1 text-sm text-slate-500">
+      Finde neue Möglichkeiten für deine Ideen.
+    </div>
+  </div>
+
+  <div className="rounded-2xl bg-white p-4 shadow-sm">
+    <div className="text-xl">💡</div>
+    <div className="mt-2 font-bold">Mitgestalten</div>
+    <div className="mt-1 text-sm text-slate-500">
+      Hilf uns, ROOMLY von Anfang an zu entwickeln.
+    </div>
+  </div>
+</div>
 
           <div className="mx-auto mt-10 max-w-xl">
             <WaitlistForm />
