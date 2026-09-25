@@ -92,7 +92,7 @@ export default function Home() {
             href="#"
             className="text-3xl font-bold tracking-[-0.07em]"
           >
-            ROOMLY<span className="text-[#a66b48]">.</span>
+            Spacendo<span className="text-[#a66b48]">.</span>
           </a>
 
           <nav className="hidden items-center gap-8 text-sm text-[#393530] md:flex">
@@ -184,7 +184,7 @@ export default function Home() {
                     {count} {count === 1 ? "Person" : "Menschen"}
                   </p>
                   <p className="text-sm text-[#817970]">
-                    bereits auf der ROOMLY-Warteliste
+                    bereits auf der Spacendo-Warteliste
                   </p>
                 </div>
               </div>
@@ -253,7 +253,7 @@ export default function Home() {
 
           <div>
             <p className="text-lg leading-8 text-[#625d57]">
-              ROOMLY bringt Menschen mit Räumen zusammen, die sonst nur schwer
+              Spacendo bringt Menschen mit Räumen zusammen, die sonst nur schwer
               zueinander finden. Für ein paar Stunden, einen Tag oder genau so
               lange, wie deine Idee es braucht.
             </p>
@@ -312,7 +312,7 @@ export default function Home() {
       <section id="so-funktionierts" className="bg-[#29241f] text-white">
         <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-20">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#c5a68d]">
-            So funktioniert ROOMLY
+            So funktioniert Spacendo
           </p>
 
           <h2 className="mt-4 text-3xl font-semibold tracking-[-0.05em] sm:text-5xl">
@@ -354,7 +354,7 @@ export default function Home() {
 
             <p className="mt-6 text-lg leading-8 text-[#625d57]">
               Steht deine Werkstatt, dein Studio oder dein Hobbyraum regelmäßig
-              leer? Mit ROOMLY soll daraus eine Möglichkeit werden, deinen Raum
+              leer? Mit Spacendo soll daraus eine Möglichkeit werden, deinen Raum
               flexibel anzubieten.
             </p>
 
@@ -392,7 +392,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 sm:px-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:py-24">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a66b48]">
-              ROOMLY Pre-Launch
+              Spacendo Pre-Launch
             </p>
 
             <h2 className="mt-5 text-4xl font-semibold leading-tight tracking-[-0.05em] sm:text-5xl">
@@ -400,34 +400,49 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-[#625d57]">
-              Trag dich kostenlos ein und erfahre als Erste:r, wenn ROOMLY
+              Trag dich kostenlos ein und erfahre als Erste:r, wenn Spacendo
               startet. Entdecke passende Räume, finde neue Möglichkeiten für
-              dein Hobby und hilf uns dabei, ROOMLY von Anfang an mitzugestalten.
+              dein Hobby und hilf uns dabei, Spacendo von Anfang an mitzugestalten.
             </p>
 
             <div className="mt-8 space-y-4 text-sm text-[#625d57]">
-              <p>✓ Erfahre zuerst, wann ROOMLY startet.</p>
+              <p>✓ Erfahre zuerst, wann Spacendo startet.</p>
               <p>✓ Entdecke neue Möglichkeiten für deine Ideen.</p>
-              <p>✓ Gestalte ROOMLY von Anfang an mit.</p>
+              <p>✓ Gestalte Spacendo von Anfang an mit.</p>
             </div>
           </div>
 
-          <div className="rounded-xl border border-[#e8e2da] bg-white p-6 sm:p-10">
-            <h3 className="text-xl font-semibold">
-              Jetzt kostenlos eintragen
-            </h3>
-            <p className="mt-2 text-sm leading-6 text-[#817970]">
-              Unverbindlich anmelden und zum Start informiert werden.
-            </p>
+          
+<div className="rounded-xl border border-[#e8e2da] bg-white p-6 sm:p-10">
+  <h3 className="text-xl font-semibold">
+    Jetzt kostenlos eintragen
+  </h3>
 
-            <div className="mt-8">
-              <WaitlistForm />
-            </div>
+  <p className="mt-2 text-sm leading-6 text-[#817970]">
+    Unverbindlich anmelden und zum Start informiert werden.
+  </p>
 
-            <p className="mt-6 text-xs text-[#938a80]">
-              Kostenlos · Unverbindlich · Zum Start informiert werden
-            </p>
-          </div>
+  <div className="mt-8">
+    <WaitlistForm />
+  </div>
+
+  <p className="mt-6 text-xs leading-5 text-[#817970]">
+    Mit deiner Anmeldung werden deine E-Mail-Adresse sowie
+    deine Angaben zu Rolle und Interesse verarbeitet, damit
+    wir dich über den Start von Spacendo informieren können.
+    Weitere Informationen findest du in unserer{" "}
+    <a
+      href="/datenschutz"
+      className="underline underline-offset-2 transition hover:text-[#a66b48]"
+    >
+      Datenschutzerklärung
+    </a>.
+  </p>
+
+  <p className="mt-4 text-xs text-[#938a80]">
+    Kostenlos · Unverbindlich · Zum Start informiert werden
+  </p>
+</div>
         </div>
       </section>
 
@@ -435,7 +450,7 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-24">
         <div className="max-w-4xl">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#a66b48]">
-            ROOMLY
+            Spacendo
           </p>
 
           <h2 className="mt-5 text-4xl font-semibold leading-tight tracking-[-0.05em] sm:text-6xl">
@@ -443,7 +458,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-6 text-lg text-[#625d57]">
-            Genau dafür bauen wir ROOMLY.
+            Genau dafür bauen wir Spacendo.
           </p>
 
           <a
@@ -463,7 +478,7 @@ export default function Home() {
             href="/"
             className="text-2xl font-bold tracking-[-0.07em] text-[#211f1d]"
           >
-            ROOMLY<span className="text-[#a66b48]">.</span>
+            Spacendo<span className="text-[#a66b48]">.</span>
           </a>
 
           <p>Der Raum für deine Idee.</p>
