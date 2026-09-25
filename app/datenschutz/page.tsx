@@ -20,58 +20,73 @@ export default function Datenschutz() {
               1. Verantwortlicher
             </h2>
             <p className="mt-3">
-              Verantwortlich für die Verarbeitung personenbezogener
-              Daten auf dieser Website ist:
+              Verantwortlich für die Verarbeitung
+              personenbezogener Daten auf dieser Website ist:
             </p>
             <p className="mt-3">
-              ROOMLY
+              Spacendo
               <br />
-              [Vollständiger Name]
+              Jannik Stollenwerk
               <br />
-              [Anschrift]
+              [Scherbstr., 52072 Aachen]
               <br />
-              E-Mail: [Kontakt-E-Mail]
+              E-Mail: [spacendo@gmx.de]
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold">
-              2. Daten bei der Nutzung der Website
+              2. Hosting und Bereitstellung der Website
             </h2>
             <p className="mt-3">
-              Beim Besuch der Website können technische Daten
+              Diese Website wird über Vercel bereitgestellt.
+              Beim Aufruf der Website können technische Daten
               verarbeitet werden, die für die Bereitstellung,
-              Sicherheit und den Betrieb der Website erforderlich
-              sind. Welche Daten dabei verarbeitet werden, hängt
-              von den eingesetzten Hosting- und technischen
-              Diensten ab.
+              Sicherheit und den Betrieb erforderlich sind.
+              Dazu können insbesondere IP-Adresse, Zeitpunkt
+              des Zugriffs, angeforderte Seiten und technische
+              Informationen zum verwendeten Browser gehören.
             </p>
             <p className="mt-3">
-              [Hosting-Anbieter, konkrete Daten, Zweck und
-              Rechtsgrundlage ergänzen.]
+              Die Verarbeitung erfolgt zum Zweck der technischen
+              Bereitstellung und Sicherheit der Website.
+              Die konkrete Rechtsgrundlage und die
+              Speicherdauer sind anhand der eingesetzten
+              Dienste und deren Einstellungen zu prüfen.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold">
-              3. Warteliste
+              3. Anmeldung zur Warteliste
             </h2>
             <p className="mt-3">
-              Wenn du dich für die ROOMLY-Warteliste anmeldest,
+              Wenn du dich für die Spacendo-Warteliste anmeldest,
               verarbeiten wir die von dir eingegebenen Daten.
-              Dazu gehören insbesondere deine E-Mail-Adresse
-              sowie gegebenenfalls deine Angaben zu Rolle und
-              Interesse.
+              Dazu gehören:
             </p>
+            <ul className="mt-3 list-disc pl-6">
+              <li>deine E-Mail-Adresse</li>
+              <li>deine ausgewählte Rolle (Raum mieten,
+                Raum anbieten oder beides)</li>
+              <li>deine ausgewählten Interessen</li>
+            </ul>
             <p className="mt-3">
-              Die Daten werden verwendet, um deine Anmeldung
-              zur Warteliste zu speichern und dich im Rahmen
-              der Warteliste zu kontaktieren.
+              Wir verwenden diese Daten, um deine Anmeldung
+              zur Warteliste zu speichern und dich über den
+              Start von Spacendo zu informieren.
             </p>
             <p className="mt-3">
               Die Speicherung erfolgt über Supabase.
-              [Rechtsgrundlage, Speicherdauer und weitere
-              Angaben zur Datenverarbeitung ergänzen.]
+              Die Rechtsgrundlage ist abhängig von der
+              konkreten Ausgestaltung der Anmeldung und
+              der erteilten Einwilligung beziehungsweise
+              dem verfolgten Zweck zu bestimmen.
+            </p>
+            <p className="mt-3">
+              Eine Verwendung für weitere Werbe-E-Mails
+              erfolgt nicht ohne eine dafür erforderliche
+              Rechtsgrundlage.
             </p>
           </section>
 
@@ -81,59 +96,95 @@ export default function Datenschutz() {
             </h2>
             <p className="mt-3">
               Für den Betrieb der Website und die Speicherung
-              der Wartelistendaten werden technische
-              Dienstleister eingesetzt.
+              der Wartelistendaten setzen wir folgende
+              technische Dienstleister ein:
             </p>
+            <ul className="mt-3 list-disc pl-6">
+              <li>
+                Vercel – Bereitstellung und Hosting der Website
+              </li>
+              <li>
+                Supabase – Speicherung der Wartelistendaten
+              </li>
+            </ul>
             <p className="mt-3">
-              [Hosting-Anbieter, Datenbankanbieter,
-              gegebenenfalls weitere Empfänger und mögliche
-              Drittlandübermittlungen konkret benennen.]
+              Je nach technischer Konfiguration können
+              Daten auch außerhalb der Europäischen Union
+              verarbeitet werden. Die konkreten Empfänger,
+              Verarbeitungsorte und gegebenenfalls
+              erforderlichen Schutzmaßnahmen sind anhand
+              der Verträge und Einstellungen der Anbieter
+              zu prüfen.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold">
-              5. Speicherdauer
+              5. Speicherdauer und Löschung
             </h2>
             <p className="mt-3">
-              Personenbezogene Daten werden nur so lange
-              gespeichert, wie es für die jeweiligen Zwecke
+              Wir speichern personenbezogene Daten nur so
+              lange, wie es für den jeweiligen Zweck
               erforderlich ist oder gesetzliche Pflichten
               dies verlangen.
             </p>
             <p className="mt-3">
-              [Konkrete Löschfristen für Wartelistendaten
-              ergänzen.]
+              Wartelistendaten werden gelöscht, sobald sie
+              für die genannten Zwecke nicht mehr erforderlich
+              sind und keine gesetzlichen Aufbewahrungspflichten
+              entgegenstehen.
+            </p>
+            <p className="mt-3">
+              [Konkrete Speicherdauer und Löschkriterien
+              für die Wartelistendaten festlegen und eintragen.]
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold">
-              6. Deine Rechte
+              6. Cookies und Tracking
             </h2>
             <p className="mt-3">
-              Du hast im Rahmen der gesetzlichen Voraussetzungen
-              das Recht auf Auskunft über deine gespeicherten
-              personenbezogenen Daten sowie auf Berichtigung,
-              Löschung, Einschränkung der Verarbeitung und
-              Datenübertragbarkeit.
-            </p>
-            <p className="mt-3">
-              Außerdem kannst du dich bei einer zuständigen
-              Datenschutzaufsichtsbehörde beschweren.
+              Nach aktuellem Stand setzen wir auf der Website
+              keine eigenen Analyse- oder Werbe-Tracking-Pixel
+              ein. Ob durch die eingesetzten technischen
+              Dienste weitere Cookies oder vergleichbare
+              Technologien verwendet werden, ist anhand
+              der tatsächlichen Konfiguration zu prüfen.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold">
-              7. Kontakt zum Datenschutz
+              7. Deine Rechte
             </h2>
             <p className="mt-3">
-              Bei Fragen zum Datenschutz kannst du uns unter
-              folgender Adresse kontaktieren:
+              Du hast im Rahmen der gesetzlichen
+              Voraussetzungen das Recht auf Auskunft über
+              deine personenbezogenen Daten sowie auf
+              Berichtigung, Löschung, Einschränkung der
+              Verarbeitung und Datenübertragbarkeit.
             </p>
             <p className="mt-3">
-              [Kontakt-E-Mail]
+              Soweit eine Verarbeitung auf einer Einwilligung
+              beruht, kannst du diese mit Wirkung für die
+              Zukunft widerrufen. Außerdem hast du das Recht,
+              dich bei einer zuständigen
+              Datenschutzaufsichtsbehörde zu beschweren.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold">
+              8. Kontakt zum Datenschutz
+            </h2>
+            <p className="mt-3">
+              Bei Fragen zum Datenschutz oder zur Ausübung
+              deiner Rechte kannst du uns unter folgender
+              Adresse kontaktieren:
+            </p>
+            <p className="mt-3">
+              [spacendo@gmx.de]
             </p>
           </section>
         </div>
