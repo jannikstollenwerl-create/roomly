@@ -18,22 +18,20 @@ export default function Impressum() {
               Angaben gemäß § 5 DDG
             </h2>
             <p className="mt-2">
-              ROOMLY
+              Spacendo
               <br />
-              [Vollständiger Name des Betreibers]
+              Jannik Stollenwerk
               <br />
-              [Straße und Hausnummer]
+              [Scherbstr. ]
               <br />
-              [PLZ und Ort]
+              52072 Aachen
             </p>
           </div>
 
           <div>
             <h2 className="text-xl font-semibold">Kontakt</h2>
             <p className="mt-2">
-              E-Mail: [Deine Kontakt-E-Mail]
-              <br />
-              Telefon: [Telefonnummer, falls erforderlich]
+              E-Mail: [spacendo@gmx.de]
             </p>
           </div>
 
@@ -42,8 +40,9 @@ export default function Impressum() {
               Weitere Angaben
             </h2>
             <p className="mt-2">
-              [Gegebenenfalls Rechtsform, Vertretungsberechtigte,
-              Registerangaben und Umsatzsteuer-ID ergänzen.]
+              Spacendo wird derzeit als Einzelprojekt
+              betrieben. Weitere gesetzlich erforderliche
+              Angaben sind gegebenenfalls zu ergänzen.
             </p>
           </div>
         </section>
